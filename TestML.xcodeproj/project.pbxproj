@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1022204230EF4100079D269 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1022202230EF4100079D269 /* CardViewController.swift */; };
+		B1022205230EF4100079D269 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1022203230EF4100079D269 /* CardViewController.xib */; };
 		B11CED08230E81380083970A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CED07230E81380083970A /* AppDelegate.swift */; };
 		B11CED0A230E81380083970A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CED09230E81380083970A /* ViewController.swift */; };
 		B11CED0D230E81380083970A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11CED0B230E81380083970A /* Home.storyboard */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1022202230EF4100079D269 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		B1022203230EF4100079D269 /* CardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
 		B11CED04230E81380083970A /* TestML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11CED07230E81380083970A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B11CED09230E81380083970A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +49,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B1022201230EF3270079D269 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B1022202230EF4100079D269 /* CardViewController.swift */,
+				B1022203230EF4100079D269 /* CardViewController.xib */,
+				B11CED09230E81380083970A /* ViewController.swift */,
+				B11CED0B230E81380083970A /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		B11CECFB230E81380083970A = {
 			isa = PBXGroup;
 			children = (
@@ -64,10 +79,9 @@
 		B11CED06230E81380083970A /* TestML */ = {
 			isa = PBXGroup;
 			children = (
+				B1022201230EF3270079D269 /* Home */,
 				B11CED1D230E9AB40083970A /* OnBoarding */,
 				B11CED07230E81380083970A /* AppDelegate.swift */,
-				B11CED09230E81380083970A /* ViewController.swift */,
-				B11CED0B230E81380083970A /* Home.storyboard */,
 				B11CED0E230E81390083970A /* Assets.xcassets */,
 				B11CED10230E81390083970A /* LaunchScreen.storyboard */,
 				B11CED13230E81390083970A /* Info.plist */,
@@ -147,6 +161,7 @@
 			files = (
 				B11CED31230E9B440083970A /* Slide.xib in Resources */,
 				B11CED12230E81390083970A /* LaunchScreen.storyboard in Resources */,
+				B1022205230EF4100079D269 /* CardViewController.xib in Resources */,
 				B11CED0F230E81390083970A /* Assets.xcassets in Resources */,
 				B11CED0D230E81380083970A /* Home.storyboard in Resources */,
 				B11CED30230E9B440083970A /* OnBoarding.storyboard in Resources */,
@@ -162,6 +177,7 @@
 			files = (
 				B11CED32230E9B440083970A /* GetStarted.swift in Sources */,
 				B11CED0A230E81380083970A /* ViewController.swift in Sources */,
+				B1022204230EF4100079D269 /* CardViewController.swift in Sources */,
 				B11CED08230E81380083970A /* AppDelegate.swift in Sources */,
 				B11CED34230E9B440083970A /* OnboardingController.swift in Sources */,
 				B11CED33230E9B440083970A /* Slide.swift in Sources */,
