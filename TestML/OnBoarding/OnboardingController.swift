@@ -49,22 +49,22 @@ class OnboardingViewController: UIViewController, UIScrollViewDelegate {
         
         let slide1:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
         slide1.imageView.image = UIImage(named: "ic_onboarding_1")
-        slide1.labelTitle.text = "Hike Ready!"
-        slide1.labelDesc.text = "Be ready by improving your stamina and strength with us, and become a Mount Conqueror!"
+        slide1.labelTitle.text = "Scan your Leather!"
+        slide1.labelDesc.text = "Find defects on your leather today!"
         
         let slide2:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
         slide2.imageView.image = UIImage(named: "ic_onboarding_2")
-        slide2.labelTitle.text = "Scheduled Training"
-        slide2.labelDesc.text = "We provide you with scheduled training that designed to improve your core muscles strength and endurability"
+        slide2.labelTitle.text = "Efficient and Easy"
+        slide2.labelDesc.text = "We'll help you to differentiate and compare leather so you can stay away from bad quality leather."
         
         let slide3:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
         slide3.imageView.image = UIImage(named: "ic_onboarding_3")
-        slide3.labelTitle.text = "Progress tracking"
-        slide3.labelDesc.text = "Your physical preparation progress will be tracked, you will know whether you are ready to hike or not"
+        slide3.labelTitle.text = "sadkasndjkandk"
+        slide3.labelDesc.text = "asdasnjdansdk"
         
         let slide4:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
         slide4.imageView.image = UIImage(named: "ic_onboarding_4")
-        slide4.labelTitle.text = "Apple watch required"
+        slide4.labelTitle.text = "asdasd"
         slide4.labelDesc.text = "This app works simultaneously with Apple Watch. Please install HikeSchool in your Apple Watch before start"
         
         
